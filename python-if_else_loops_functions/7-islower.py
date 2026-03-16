@@ -5,6 +5,6 @@ def islower(c):
     if 'a' <= c <= 'z':
         return True
     elif 'A' <= c <= 'Z':
-        return False
+        return None
     else:
-        raise ValueError("Invalid character")
+        return None
