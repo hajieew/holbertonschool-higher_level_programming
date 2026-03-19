@@ -2,4 +2,6 @@
 def print_last_digit(number):
     number = abs(number)
     number = str(number)
-    print(number[-1])
+    return number[-1]
+
+print(print_last_digit(98))
