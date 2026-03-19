@@ -7,6 +7,3 @@ def uppercase(str):
             i = chr(ord(i) - 32)
             print(f"{i}, end=''")
     print()
-
-str = 'HellO'
-uppercase(str)
