@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 letter = ord('a')
+alphabet = ''
 while letter <= ord('z'):
-    print("{}".format(chr(letter)), end='')
+    alphabet += chr(letter)
     letter += 1
+print("{}".format(alphabet))
