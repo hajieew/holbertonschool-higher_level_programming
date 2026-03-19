@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-from args_2
+from args_2 import *
