@@ -4,4 +4,4 @@ alphabet = ''
 while letter <= ord('z'):
     alphabet += chr(letter)
     letter += 1
-print("{}".format(alphabet))
+print("{}".format(alphabet), end='')
