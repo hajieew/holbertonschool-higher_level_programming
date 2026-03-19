@@ -3,5 +3,3 @@ def print_last_digit(number):
     number = abs(number)
     number = str(number)
     return number[-1]
-
-print(print_last_digit(98))
