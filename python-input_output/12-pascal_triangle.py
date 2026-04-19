@@ -1,18 +1,22 @@
 #!/usr/bin/python3
-"""abcde"""
+"""pascal triangle"""
 
 
 def pascal_triangle(n):
-    """edcba"""
+    """Returns a list of lists of integers representing Pascal's triangle."""
     if n <= 0:
         return []
+
     triangle = [[1]]
+
     for i in range(1, n):
-        pre_row = triangle[i - 1]
-        curr_row = [1]
+        row = [1]
+        prev_row = triangle[i - 1]
+
         for j in range(1, i):
-            indiki_row.append(pre_row[j - 1] + pre_row[j])
-        curr_row.append(1)
-        triangle.append(curr_row)
+            row.append(prev_row[j - 1] + prev_row[j])
+
+        row.append(1)
+        triangle.append(row)
 
     return triangle
