@@ -11,4 +11,5 @@ def pascal_triangle(n):
         triangle = []
         for i in range(n):
             row = [1]
+  
     return 
